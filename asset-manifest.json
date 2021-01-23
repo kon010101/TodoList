@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/TodoList70s/static/css/main.93c1200c.chunk.css",
+    "main.js": "/TodoList70s/static/js/main.68c54ed8.chunk.js",
+    "main.js.map": "/TodoList70s/static/js/main.68c54ed8.chunk.js.map",
+    "runtime-main.js": "/TodoList70s/static/js/runtime-main.3b1eef87.js",
+    "runtime-main.js.map": "/TodoList70s/static/js/runtime-main.3b1eef87.js.map",
+    "static/js/2.e579791d.chunk.js": "/TodoList70s/static/js/2.e579791d.chunk.js",
+    "static/js/2.e579791d.chunk.js.map": "/TodoList70s/static/js/2.e579791d.chunk.js.map",
+    "index.html": "/TodoList70s/index.html",
+    "static/css/main.93c1200c.chunk.css.map": "/TodoList70s/static/css/main.93c1200c.chunk.css.map",
+    "static/js/2.e579791d.chunk.js.LICENSE.txt": "/TodoList70s/static/js/2.e579791d.chunk.js.LICENSE.txt",
+    "static/media/AddListForm.css": "/TodoList70s/static/media/flower-power.180ba922.jpg",
+    "static/media/App.css": "/TodoList70s/static/media/header-background.94d84efa.webp",
+    "static/media/paperball.e682d1a9.png": "/TodoList70s/static/media/paperball.e682d1a9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b1eef87.js",
+    "static/js/2.e579791d.chunk.js",
+    "static/css/main.93c1200c.chunk.css",
+    "static/js/main.68c54ed8.chunk.js"
+  ]
+}
