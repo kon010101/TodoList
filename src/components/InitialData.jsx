@@ -103,7 +103,7 @@ const todoListsDefault = [
     key: 3,
     todos: [
       {
-        listColor: "#2d5c71",
+        listColor: "#c03c32",
         text: "Get presents",
         finished: false,
         key: 8,
@@ -111,7 +111,7 @@ const todoListsDefault = [
         prio: false,
       },
       {
-        listColor: "#2d5c71",
+        listColor: "#c03c32",
         text: "Bake",
         finished: false,
         key: 9,
@@ -119,7 +119,7 @@ const todoListsDefault = [
         prio: false,
       },
       {
-        listColor: "#2d5c71",
+        listColor: "#c03c32",
         text: "Get christmas tree",
         finished: false,
         key: 10,
@@ -127,7 +127,7 @@ const todoListsDefault = [
         prio: false,
       },
       {
-        listColor: "#2d5c71",
+        listColor: "#c03c32",
         text: "Catch some Pokemon :)",
         finished: false,
         key: 11,
