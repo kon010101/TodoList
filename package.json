@@ -2,7 +2,7 @@
   "name": "todolist-final",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kon010101.github.io/TodoList70s/",
+  "homepage": "https://kon010101.github.io/TodoList70s",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
