@@ -21,14 +21,14 @@ function Sidebar() {
     const renderItems = doneItems.map((item, index) => {
       if (index < 10) {
         return (
-          <li
+          <span
             className="todo-finished-item"
             style={{
               backgroundColor: item.listColor,
             }}
           >
             {item.text}
-          </li>
+          </span>
         );
       }
     });
@@ -41,14 +41,14 @@ function Sidebar() {
     const prioItems = allTodos.filter((el) => el.prio);
     const renderPrio = prioItems.map((item) => {
       return (
-        <li
+        <span
           className="todo-finished-item"
           style={{
             backgroundColor: item.listColor,
           }}
         >
           {item.text}
-        </li>
+        </span>
       );
     });
     return renderPrio;
@@ -57,14 +57,14 @@ function Sidebar() {
   function renderListCategories() {
     const projectName = todoLists.map((item) => {
       return (
-        <li
+        <span
           className="todo-finished-item"
           style={{
             backgroundColor: item.color,
           }}
         >
           {item.headline}
-        </li>
+        </span>
       );
     });
     return projectName;
@@ -73,11 +73,11 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <h1>Important</h1>
-      <ul className="sidebar-list">{renderPrioItems()}</ul>
+      <div className="sidebar-list">{renderPrioItems()}</div>
       <h1>Projects</h1>
-      <ul className="sidebar-list">{renderListCategories()}</ul>
+      <div className="sidebar-list">{renderListCategories()}</div>
       <h1>Done</h1>
-      <ul className="sidebar-list">{renderDoneItems()}</ul>
+      <div className="sidebar-list">{renderDoneItems()}</div>
     </div>
   );
 }

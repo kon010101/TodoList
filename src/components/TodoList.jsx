@@ -71,7 +71,7 @@ function TodoList({ todoList }) {
           onChange={handleInputText}
         ></input>
       )}
-      <ul className="todo-list">{getTodos()}</ul>
+      <div className="todo-list">{getTodos()}</div>
       <AddToDoLine className="add-todo-line" todoList={todoList} />
     </div>
   );
